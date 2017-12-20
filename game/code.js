@@ -132,7 +132,7 @@ function init() {
   winOrLose = document.getElementById('winOrLose');
 
   meshfloor = new THREE.Mesh(
-    new THREE.PlaneGeometry(MAP_SIZE_WIDTH*2,MAP_SIZE_HEIGHT*2),
+    new THREE.PlaneGeometry(MAP_SIZE_W*2,MAP_SIZE_H*2),
     new THREE.MeshPhongMaterial({color:0x3B5323, wireframe:USE_WIREFRAME})
   );
   meshfloor.rotation.x -= Math.PI / 2;
